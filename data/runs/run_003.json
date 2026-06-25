@@ -1,0 +1,5992 @@
+{
+  "id": "run_003",
+  "board": {
+    "cols": 8,
+    "rows": 8
+  },
+  "legend": {
+    "P": "player",
+    "C": "coin",
+    "O": "resource_node",
+    "T": "spike_trap",
+    "W": "warrior",
+    "L": "lancer",
+    "A": "archer",
+    "H": "healer",
+    "B": "bear",
+    "G": "gnoll",
+    "Z": "lizard",
+    "M": "minotaur",
+    "D": "panda",
+    "R": "barrel",
+    "E": "exit"
+  },
+  "stages": [
+    {
+      "id": "level_001",
+      "cells": [
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_002",
+      "cells": [
+        {
+          "pos": [
+            7,
+            3
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_003",
+      "cells": [
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            3
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_004",
+      "cells": [
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            7,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_005",
+      "cells": [
+        {
+          "pos": [
+            5,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_006",
+      "cells": [
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            1,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_007",
+      "cells": [
+        {
+          "pos": [
+            3,
+            1
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_008",
+      "cells": [
+        {
+          "pos": [
+            3,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_009",
+      "cells": [
+        {
+          "pos": [
+            1,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_010",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_011",
+      "cells": [
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_012",
+      "cells": [
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            2,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_013",
+      "cells": [
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_014",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            0,
+            4
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_015",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            2,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            4
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            5
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_016",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_017",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "lancer",
+          "id": "lancer_1"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_018",
+      "cells": [
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            4
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_019",
+      "cells": [
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            6,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_020",
+      "cells": [
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            0,
+            3
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_021",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_022",
+      "cells": [
+        {
+          "pos": [
+            4,
+            0
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_023",
+      "cells": [
+        {
+          "pos": [
+            4,
+            0
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            6,
+            2
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_024",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_025",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_026",
+      "cells": [
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "gnoll",
+          "id": "gnoll"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_027",
+      "cells": [
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            4
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "gnoll",
+          "id": "gnoll"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_028",
+      "cells": [
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            0,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "gnoll",
+          "id": "gnoll"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_029",
+      "cells": [
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "gnoll",
+          "id": "gnoll"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "gnoll",
+          "id": "gnoll_1"
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_030",
+      "cells": [
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "gnoll",
+          "id": "gnoll"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            6,
+            7
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        }
+      ]
+    },
+    {
+      "id": "level_031",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "healer",
+          "id": "healer",
+          "params": {
+            "heal": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_032",
+      "cells": [
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "healer",
+          "id": "healer",
+          "params": {
+            "heal": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_033",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "healer",
+          "id": "healer",
+          "params": {
+            "heal": 1
+          }
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            4
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            6,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_034",
+      "cells": [
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "healer",
+          "id": "healer",
+          "params": {
+            "heal": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            6,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_035",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "healer",
+          "id": "healer",
+          "params": {
+            "heal": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_036",
+      "cells": [
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "lizard",
+          "id": "lizard"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_037",
+      "cells": [
+        {
+          "pos": [
+            1,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_038",
+      "cells": [
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "panda",
+          "id": "panda"
+        },
+        {
+          "pos": [
+            1,
+            4
+          ],
+          "type": "lizard",
+          "id": "lizard"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_039",
+      "cells": [
+        {
+          "pos": [
+            1,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            3
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "panda",
+          "id": "panda"
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "panda",
+          "id": "panda_1"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_040",
+      "cells": [
+        {
+          "pos": [
+            1,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "panda",
+          "id": "panda"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            3
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            5,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        }
+      ]
+    },
+    {
+      "id": "level_041",
+      "cells": [
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "bear",
+          "id": "bear"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_042",
+      "cells": [
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "bear",
+          "id": "bear"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            6
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_043",
+      "cells": [
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "minotaur",
+          "id": "minotaur"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            6
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_044",
+      "cells": [
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "bear",
+          "id": "bear"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "healer",
+          "id": "healer",
+          "params": {
+            "heal": 1
+          }
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_045",
+      "cells": [
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "bear",
+          "id": "bear"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "minotaur",
+          "id": "minotaur"
+        }
+      ]
+    },
+    {
+      "id": "level_046",
+      "cells": [
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "barrel",
+          "id": "barrel"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "barrel",
+          "id": "barrel_1"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            6,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_047",
+      "cells": [
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "barrel",
+          "id": "barrel"
+        },
+        {
+          "pos": [
+            0,
+            5
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_048",
+      "cells": [
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "barrel",
+          "id": "barrel"
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            0,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            7,
+            5
+          ],
+          "type": "gnoll",
+          "id": "gnoll"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_049",
+      "cells": [
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            7,
+            6
+          ],
+          "type": "barrel",
+          "id": "barrel"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "player"
+        }
+      ]
+    },
+    {
+      "id": "level_050",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "gnoll",
+          "id": "gnoll"
+        },
+        {
+          "pos": [
+            4,
+            0
+          ],
+          "type": "healer",
+          "id": "healer",
+          "params": {
+            "heal": 1
+          }
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "barrel",
+          "id": "barrel"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "barrel",
+          "id": "barrel_1"
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "lancer",
+          "id": "lancer_1"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "archer",
+          "id": "archer",
+          "params": {
+            "damage": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_051",
+      "cells": [
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "healer",
+          "id": "healer"
+        }
+      ]
+    },
+    {
+      "id": "level_052",
+      "cells": [
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            6,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "healer",
+          "id": "healer"
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            6
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        }
+      ]
+    },
+    {
+      "id": "level_053",
+      "cells": [
+        {
+          "pos": [
+            5,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            6
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "healer",
+          "id": "healer"
+        }
+      ]
+    },
+    {
+      "id": "level_054",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 3,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "healer",
+          "id": "healer"
+        }
+      ]
+    },
+    {
+      "id": "level_055",
+      "cells": [
+        {
+          "pos": [
+            1,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            3,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "type": "healer",
+          "id": "healer"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            6,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 1,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_056",
+      "cells": [
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "healer",
+          "id": "healer"
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_057",
+      "cells": [
+        {
+          "pos": [
+            1,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            1
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            6
+          ],
+          "type": "resource_node",
+          "params": {
+            "size": 1,
+            "resource_kind": "gold",
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_058",
+      "cells": [
+        {
+          "pos": [
+            1,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "size": 1,
+            "resource_kind": "gold",
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            0,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "healer",
+          "id": "healer"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            6
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_059",
+      "cells": [
+        {
+          "pos": [
+            2,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "healer",
+          "id": "healer"
+        },
+        {
+          "pos": [
+            0,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_060",
+      "cells": [
+        {
+          "pos": [
+            2,
+            0
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            4,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "type": "resource_node",
+          "params": {
+            "size": 1,
+            "resource_kind": "gold",
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            7,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            3
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        },
+        {
+          "pos": [
+            0,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            6,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_061",
+      "cells": [
+        {
+          "pos": [
+            2,
+            0
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "size": 2,
+            "resource_kind": "gold",
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_062",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            2,
+            0
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            5,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "type": "resource_node",
+          "params": {
+            "resource_kind": "gold",
+            "size": 2,
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            1,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            7,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_063",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "archer",
+          "id": "archer"
+        },
+        {
+          "pos": [
+            4,
+            0
+          ],
+          "type": "lancer",
+          "id": "lancer"
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "size": 3,
+            "resource_kind": "gold",
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "warrior",
+          "id": "warrior_1"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            0,
+            7
+          ],
+          "type": "resource_node",
+          "params": {
+            "size": 1,
+            "resource_kind": "gold",
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "healer",
+          "id": "healer"
+        }
+      ]
+    },
+    {
+      "id": "level_064",
+      "cells": [
+        {
+          "pos": [
+            0,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "size": 2,
+            "resource_kind": "gold",
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "warrior",
+          "id": "warrior"
+        },
+        {
+          "pos": [
+            7,
+            0
+          ],
+          "type": "resource_node",
+          "params": {
+            "size": 1,
+            "resource_kind": "gold",
+            "hits_required": 2,
+            "reward_gold": 1
+          }
+        },
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            3,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "exit",
+          "params": {
+            "coin_kind": "exit_icon",
+            "gold_value": 0
+          }
+        },
+        {
+          "pos": [
+            0,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    },
+    {
+      "id": "level_065",
+      "cells": [
+        {
+          "pos": [
+            2,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            0
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            1
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            2
+          ],
+          "type": "player"
+        },
+        {
+          "pos": [
+            5,
+            2
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            3
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            4
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            5
+          ],
+          "type": "coin"
+        },
+        {
+          "pos": [
+            7,
+            5
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            1,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            6
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            6,
+            7
+          ],
+          "type": "spike_trap"
+        },
+        {
+          "pos": [
+            7,
+            7
+          ],
+          "type": "spike_trap"
+        }
+      ]
+    }
+  ]
+}
